@@ -2,7 +2,7 @@ const prompt = require('prompt-sync')();
 
 let f1 = 0;
 let array = [];
-while(f1==6){
+while(f1!==6){
     console.log("Student Grade Manager \n\n 1. Add Grade\n 2. Remove Grade\n 3. View Grades\n 4. Calculate Average\n 5. Find Highest Grade\n 6. Exit");
     
     let e = Number(prompt("Enter your choice: "));
@@ -132,6 +132,7 @@ while(n1!==6){
     while(e === 4) {
         if(array1.length === 0) {
             console.log("No movies available.");
+            break;
         } else {
             let sum =  0
             for(let i = 0; i < array1.length; i++) {
