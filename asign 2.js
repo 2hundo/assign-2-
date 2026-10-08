@@ -1,8 +1,8 @@
 const prompt = require('prompt-sync')();
 
-let n = 0;
+let f1 = 0;
 let array = [];
-while(n!==6){
+while(f1==6){
     console.log("Student Grade Manager \n\n 1. Add Grade\n 2. Remove Grade\n 3. View Grades\n 4. Calculate Average\n 5. Find Highest Grade\n 6. Exit");
     
     let e = Number(prompt("Enter your choice: "));
